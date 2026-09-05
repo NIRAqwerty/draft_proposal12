@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Финансовый трекер</string>
+    <color name="blue">#3B82F6</color>
+    <color name="bg">#0f1117</color>
+    <color name="nav_bg">#1a1d27</color>
+
+    <style name="Theme.FinanceTracker" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="android:statusBarColor">@color/bg</item>
+        <item name="android:navigationBarColor">@color/nav_bg</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+</resources>
